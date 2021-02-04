@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  z-index: -1;
+}
+
+.topnav {
+  position: fixed;
+  z-index: 1;
+  top: 5.5%;
+  left: 3%;
+  margin-top: 90px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 350px;
+  height: 100%;
+}
+
+li a {
+  display: block;
+  background-color: whitesmoke;
+  color: green;
+  margin: 36px;
+  padding: 8px 16px;
+  text-decoration: none;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: justify;
+}
+
+li a:hover {
+  color: rgb(22, 70, 18);
+}
+
+.a,
+.b,
+.c,
+.d,
+.e,
+.f,
+.g,
+.h {
+  font-family: 'Gochi Hand', cursive;
+  border: 5px solid whitesmoke;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.active {
+  color: rgb(22, 70, 18);
+}
+
+.hire {
+  position: fixed;
+  bottom: 20%;
+  right: 29.5%;
+
+  margin-top: 90%;
+  transform: translate(50%, 50%);
+  -webkit-transform: translate(50%, 50%);
+  -moz-transform: translate(50%, 50%);
+  -ms-transform: translate(50%, 50%);
+  -o-transform: translate(50%, 50%);
+}
+.btn {
+  width: 900px;
+  height: 100px;
+  font-size: 200px;
+  font-family: 'Gochi Hand', cursive;
+  background-color: transparent;
+  border-color: transparent;
+
+  color: green;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.btn span {
+  color: black;
+}
+.btn:hover {
+  cursor: pointer;
+}
+
+div > .img {
+  position: absolute;
+}
+.ca {
+  position: absolute;
+  top: 3%;
+  left: -6%;
+  z-index: 0;
+  opacity: 0.3;
+}
+.ab {
+  position: absolute;
+  top: 60%;
+  left: 10%;
+  z-index: 0;
+  opacity: 0.3;
+}
+.bc {
+  position: absolute;
+  top: 7%;
+  left: 70%;
+  z-index: -1;
+  opacity: 0.3;
+}
+.ac {
+  position: absolute;
+  top: 1%;
+  left: 35%;
+  z-index: -1;
+  opacity: 0.3;
+}
+.cd {
+  position: absolute;
+  bottom: -1%;
+  right: 1%;
+  z-index: -1;
+  opacity: 0.3;
+}
+p {
+  margin-top: 0px;
+  margin-left: 250px;
+  padding: 40px;
+  position: fixed;
+  top: 40%;
+  left: 60%;
+  font-weight: px;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  font-size: 70px;
+  text-align: justify;
+  font-family: 'Gochi Hand', cursive;
+  color: green;
+  background-color: whitesmoke;
+}
+.intro {
+  border: 10px solid whitesmoke;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+
+p span {
+  color: black;
+}
